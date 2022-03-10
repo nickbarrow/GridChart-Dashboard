@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F8;
+}
+  
+.header {
+  background-color: #383874;
+  height: 180px;
+  padding: 0 40px 60px;
+  margin-bottom: -60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title img {
+  width: 72px;
+  margin-right: 50px;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.dashboard {
+  padding: 0 30px;
+}
+
+.grid-stack-item {
+  height: 500px;
+}
+
+.grid-stack-item-content {
+  background-color: white;
+  border: 2px solid #E7E7EA;
+  border-radius: 10px;
+  padding: 30px;
+  font-family: sans-serif;
+  color: #383874;
+}
+
+.grid-item-info {
+  height: 30%;
+}
+
+.grid-item-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+.grid-item-desc {
+  font-size: 14px;
+  margin: 8px 0 0;
+  font-weight: 300;
+}
+
+
+.chart-container {
+  max-height: 280px;
+  position: relative;
+  height: 70%;
+  width: 100%;
+}
+
+.chart-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.current {
+  font-size: 30px;
+  margin: 0 0 5px;
+}
+
+.goal-met {
+  color: #0BB22E;
+}
+
+.chart-label p {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+
+.half-tile-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.half-tile .current {
+  margin: 0;
+}
+
+.half-tile-content p {
+  font-weight: 600;
+  margin: 0;
+}
